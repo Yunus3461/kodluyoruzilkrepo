@@ -1,0 +1,22 @@
+#content h1 {
+    color: red;
+}
+.navbar h1 {
+    text-align: center;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar ul li {
+    margin-right: 5px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all .4s ease;
+}
+.navbar ul li a:hover {
+    color: red;
+}
